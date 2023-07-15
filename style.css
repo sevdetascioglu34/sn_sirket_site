@@ -1,0 +1,310 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    background:url(HARktlikod.gif);
+    height:100vh;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color:blanchedalmond;
+    z-index:1000;
+    top:0;
+    position:sticky;
+}
+.header .logo img{
+width:11rem;
+height:9rem;
+border-radius:3rem;
+margin-left:1rem;
+}
+.content{
+    font-size:1.8rem;
+    text-align: center;
+    padding:3rem;
+}
+.content a{
+    align-items: center;
+    text-decoration: none;
+  margin:1rem;
+  color:#000;
+  font-weight: 100;
+}
+.content a:hover{
+    transition:0.5s ease;
+    color:brown;
+    background-color: burlywood;
+}
+.share{
+    font-size:1.7rem;
+
+    padding:3rem;
+}
+.share i{
+    color:#000;
+}
+.section p{
+    font-size:15rem;
+    margin:10rem 10rem;
+    padding:2rem 2rem;
+    color:#fff;
+    font-weight:bold;
+    word-spacing:2rem;
+}
+.toplama h1{
+    margin-top:1rem;
+    font-size:2.5rem;
+    font-weight:bold;
+    color:#000;
+}
+.section-1{
+    background-color:blanchedalmond;
+}
+.section-1 .sistem{
+    font-size:4rem;
+    border-bottom:4px solid #000;
+    color:#000;
+}
+.toplama{
+background-color:#fff;
+display:flex;
+flex-direction: column;
+justify-content:space-between;
+padding:1rem 1rem;
+width:40rem;
+
+}
+.container-box{
+    margin-top:1rem;
+    display:flex;
+    gap:2rem;
+    margin-left:15rem;
+}
+.toplama img{
+    width:35rem;
+    height:35rem;
+}
+.toplama p{
+    margin-top:1rem;
+    font-size:2rem;
+}
+.masaüstü{
+    background-color:#fff;
+}
+.masaüstü img{
+    width:35rem;
+    height:35rem;
+}
+.masaüstü p{
+margin-top:1rem;
+    font-size:2rem;
+}
+.masaüstü h1{
+    margin-top:2rem;
+    font-size:2.2rem;
+
+}
+.dizüstü{
+    background-color:#fff;
+}
+.dizüstü img{
+    width:35rem;
+    height:35rem;
+}
+.dizüstü p{
+    font-size:2rem;
+    margin-top:1rem;
+}
+.dizüstü h1{
+    font-size:2.2rem;
+    margin-top:2rem; }
+.section-2{
+    background-color:blanchedalmond;
+}
+.section-2 .sistem2{
+    font-size:3rem;
+    border-bottom:1rem solid #000;
+    color:#000;
+}
+.container-box1{
+    display:flex;
+    gap:2rem;
+    margin-left:6rem;
+}
+.kamera4{
+    background-color:#fff;
+}
+.kamera4 img{
+    width:45rem;
+    height:45rem;
+}
+.kamera4 h1{
+    font-size:2rem;
+    text-align:center;
+}
+.kamera4 p{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.kamera8{
+    background-color: #fff;
+}
+.kamera8 h1{
+    font-size:2rem;
+    text-align:center;
+}
+.kamera8 p{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.kamera8 img{
+    width:45rem;
+    height:45rem;
+}
+.kamera16{
+    background-color:#fff;
+}
+.kamera16 h1{
+    text-align:center;
+    font-size:2rem;
+}
+.kamera16 p{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.kamera16 img{
+    width:45rem;
+    height:45rem;
+}
+.section-3{
+    background-color:blanchedalmond;
+    display:flex;
+    flex-basis:50%;
+
+}
+.section-3 h1{
+    font-size:4rem;
+    border-bottom:1rem solid #000;
+}
+
+.web img{ 
+    width:30rem;
+    height:30rem;
+}
+.web p{
+    font-size:2rem;
+    font-weight:bold;
+    margin-top:2rem;
+    margin-left:1rem;
+}
+.web{
+    margin-top:1rem;
+    background-color:rgb(220, 226, 237) ;
+    flex-basis:50%;
+    display:flex;
+}
+.web p span{
+    color:blueviolet;
+    font-size:3rem;
+    font-weight:bold;
+    margin-left:1rem;
+    margin-top:2rem;
+}
+.text .sirket{
+font-size:3rem;
+color:blue;
+}
+.h11{
+    background-color:blanchedalmond;
+    font-size:3rem;
+    border-bottom:3px solid #000;
+}
+.text p{
+    margin-top:1rem;
+    font-size:2rem;
+    font-weight:bold;
+}
+.text p span{
+    color:blue;
+    font-size:2.2rem;
+}
+.image img{
+    width:50rem;
+    height:30rem;
+}
+.text{
+    margin-left:2rem;
+}
+.s{
+    font-size:3rem;
+    font-weight:bold;
+    background-color:blanchedalmond;
+    border-bottom:1rem solid #000;
+}
+.section-4{
+    display:flex;
+    flex-basis:50%;
+}
+.pp{
+    color:rgb(81, 70, 183);
+    font-size:2.3rem;
+}
+.paragraph{
+    margin-top:2rem;
+    font-weight:bold;
+    font-size:2rem;
+}
+.paragraph p{
+    margin-top:1rem;
+    line-height:3rem;
+}
+.paragraph p span{
+    color:rgb(81, 70, 183);
+}
+.footer{
+    display:flex;
+    flex-basis:50%;
+}
+.adress{
+    color:white;
+
+}
+.mail{
+    color:white;
+
+}
+.tel{
+    color:white;
+
+}
+.adres i{
+    color:white;
+    font-size:3rem;
+}
+.email i{
+    color:white;
+    font-size:3rem;
+}
+.Telefon i{
+    color:white;
+    font-size:3rem;
+}
+.footer{
+    background-color: #000;
+}
+.konum iframe{
+    margin-left:65rem;
+    width:60rem;
+position:relative;
+}
+.iletisim{
+    background-color:blanchedalmond;
+    font-size:4rem;
+}
+
